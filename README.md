@@ -1,0 +1,2 @@
+# Type Error in TypeScript string concatenation
+This bug demonstrates a common type error in TypeScript when attempting to concatenate a number with a string using a function designed to work exclusively with strings.  The function `combineStrings` is defined to accept two string arguments, yet a number is passed resulting in a type error. The solution involves explicitly type-checking and conversion, or using template literals for safer concatenation.
